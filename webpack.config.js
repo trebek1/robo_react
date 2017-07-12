@@ -6,7 +6,7 @@ module.exports = {
   entry: [
     'webpack-hot-middleware/client',
     './src/index', 
-    './src/css/home.css'
+    './src/styles/index.css'
   ],
   output: {
     path: path.join(__dirname, 'dist'),

@@ -1,0 +1,286 @@
+
+.app-wrapper{
+	height:100vh;
+}
+
+@font-face {
+    font-family:robo;
+    src: url(../../static/robo.ttf);
+}
+
+*:focus {
+    outline: none;
+}
+
+a:hover, h3.title:hover, a:active{
+	color: red;
+}
+
+h3.title:active{
+	color: white;
+}
+
+.title{
+	text-align: center;
+}
+
+.screen {
+	border-color: #333333;
+	border-style: solid;
+	background-color: #333333;
+	color: #ffffff;
+	min-height: 100%;
+}
+
+#upper_right:hover .title, #upper_left:hover .title,#lower_right:hover .title, #lower_left:hover .title{
+	color: red;
+}
+
+#upper_left {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+#upper_right {
+	position: absolute;
+	top: 10%;
+	right: 10%;
+}
+#lower_left {
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+#lower_right {
+	bottom: 10%;
+	right: 10%;
+	position: absolute;
+}
+
+#links {
+	bottom: 12%;
+	right: 45%;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#hero{
+	bottom: 25%;
+	right: 54%;
+	position: absolute;
+}
+
+html {
+	background-image: url("../../static/background-blank.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: robo;
+	color: orange;
+	
+}
+
+#edu{
+	display: none;
+}
+
+#text, #edu, #resume{
+	
+	line-height: 120%;
+ 	position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa, .resume {
+	color: orange;
+	text-decoration: none;
+}
+
+.title{
+	cursor: pointer;
+}
+
+#edutext, #edutext2{
+	color: #87CEFA;
+	line-height: 110%;
+
+}
+
+#about{
+	line-height: 120%;
+ 	position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 70%;
+	display: none;
+}
+
+
+
+#edutext2 {
+	font-size: small;
+}
+
+.lightBlue, .infoTitle {
+	color: #87CEFA;
+}
+
+#projects{
+	line-height: 120%;
+ 	position: fixed;
+ 	height: 100%;
+ 	width: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#itunes-project:hover, #tennis-project:hover, #scene-project:hover, #maps-project:hover, #stocks-project:hover {
+	background-color: #000080;
+	cursor: pointer;
+}
+
+.image{
+	height: 150px;
+	width: 200px;
+	max-width: 100%;
+}
+
+.information{
+	font-size: small;
+	
+}
+
+.site, .section-title {
+	color: #ffffff;
+}
+
+#tennis-project-data, #scene-project-data, #maps-project-data, #itunes-project-data{
+	
+	display: none;
+	position: fixed;
+	top:40%;
+	
+
+}
+
+.mailto{
+	
+	color: #87CEFA;
+	text-decoration: none;
+}
+
+#container{
+	position:relative;
+}
+
+#p-list{
+	position: absolute;
+	margin-top: 20%;
+	margin-bottom: 10%;
+
+
+}
+
+@media only screen and (orientation:portrait) {
+	
+	#links {
+		bottom: 11%;
+		right: 40%;
+		position: absolute;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#p-list{
+		position: absolute;
+		margin-top: 75%;
+		margin-bottom: 10%;
+	}
+
+	.projects{
+		line-height:200%; 
+		font-size: 110%;
+	}
+
+	#tennis-project-data, #scene-project-data, #maps-project-data, #itunes-project-data{
+	
+	display: none;
+	position: fixed;
+	top:43%;
+	
+	}
+
+	.information{
+		font-size: small;	
+	}
+
+
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (orientation : landscape) {
+	#project-data{
+		font-size: 75%;
+	}
+	#edu{
+		font-size: 75%;
+		line-height: 120%;
+	 	position: fixed;
+	    top: 45%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);	
+	}
+	
+
+	#about{
+		max-height: 300px;
+    	overflow-y: scroll;
+    	line-height: 120%;
+	 	position: fixed;
+	    top: 53%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+		font-size: 70%;
+		display: block;
+
+	}
+	.anchor-image{
+		height: 50%;
+		width: 50%;	
+	}
+	.title{
+		font-size: 75%;
+	}
+
+	#p-list{
+		position: absolute;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+
+	#tennis-project-data, #scene-project-data, #maps-project-data, #itunes-project-data{
+	
+		position: fixed;
+		max-height: 220px;
+	    overflow-y: scroll;
+	    display: block;
+	    top:50%;
+
+	}
+
+	.information{
+		font-size: small;
+	
+	}
+}
+
+
+
+
+
