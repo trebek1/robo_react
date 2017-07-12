@@ -1,3 +1,44 @@
+.textContainer{
+	position: relative;
+	overflow:visible
+}
+
+.space{
+	padding: 10px;
+}
+
+.content{
+    width: 50vw;
+    height: 70vh;
+	display: inline-block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+#links {
+	bottom: 12%;
+	right: 41%;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#hero{
+	bottom: 25%;
+	right: 54%;
+	position: absolute;
+}
+
+
+.home{
+	line-height: 70vh;
+}
 
 .app-wrapper{
 	height:100vh;
@@ -54,21 +95,6 @@ h3.title:active{
 #lower_right {
 	bottom: 10%;
 	right: 10%;
-	position: absolute;
-}
-
-#links {
-	bottom: 12%;
-	right: 45%;
-	position: absolute;
-	font-size: 20px;
-	text-align: center;
-}
-
-
-#hero{
-	bottom: 25%;
-	right: 54%;
 	position: absolute;
 }
 
@@ -165,12 +191,10 @@ html {
 	display: none;
 	position: fixed;
 	top:40%;
-	
 
 }
 
 .mailto{
-	
 	color: #87CEFA;
 	text-decoration: none;
 }
