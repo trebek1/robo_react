@@ -4,7 +4,6 @@ import {Link} from 'react-router';
 export default class Scene extends Component {
   	render() {
     return (	
-        
     	<div id='tennis-project-data'>
     		<div className="ib top height">
 				<img className="image" src={require("../../../static/sites/scene-in-the-city.png")} />

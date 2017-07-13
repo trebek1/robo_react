@@ -4,9 +4,8 @@ import {Link} from 'react-router';
 export default class Itunes extends Component {
   	render() {
     return (	
-        
     	<div id='tennis-project-data'>
-    		<div className="ib">
+    		<div className="ib top height">
 				<img className="image" src={require("../../../static/sites/tennis3.png")} />
 			</div>
 
