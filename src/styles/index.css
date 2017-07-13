@@ -7,6 +7,10 @@
     outline: none;
 }
 
+.projects{
+	text-decoration: none;
+}
+
 .orangeText{
 	color:orange;
 }
@@ -115,9 +119,10 @@ html {
 	
 }
 
-#edu{
-	display: none;
+.ib{
+	display: inline-block;
 }
+
 
 #text, #edu, #resume{
 	
@@ -164,7 +169,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    
 }
 
 #itunes-project:hover, #tennis-project:hover, #scene-project:hover, #maps-project:hover, #stocks-project:hover {
@@ -180,6 +185,10 @@ html {
 
 .information{
 	font-size: small;
+	display: inline-block;
+	width: 40vw;
+	vertical-align: center;
+	padding: 10px;
 	
 }
 
@@ -189,9 +198,10 @@ html {
 
 #tennis-project-data, #scene-project-data, #maps-project-data, #itunes-project-data{
 	
-	display: none;
+	
 	position: fixed;
 	top:40%;
+
 
 }
 

@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import {Link} from 'react-router';
 
 export default class Projects extends Component {
+
+	selectDemo(type){
+		 window.location = '/projects/' + type; 
+	}
+
   	render() {
     return (	
         <div className="content projects">
@@ -9,11 +14,12 @@ export default class Projects extends Component {
 				<div id='p-list'>
 					<h3 className='section-title'> Projects ---> Click For More Information! </h3>
 					<ul>
-						<li className="projects" onclick='changeDemo(1)' id="tennis-project"> Tennis Courts in SF - July 2017 </li>
-						<li className="projects" onclick='changeDemo(4)' id="itunes-project"> Itunes Sampler - March 2016 </li>
-						<li className="projects" onclick='changeDemo(3)' id="maps-project"> Many Maps - Feb 2016</li>
-						<li className="projects" onclick='changeDemo(2)' id ="scene-project"> Scene in the City - May 2015  </li>
+						<div><Link className="projects orangeText" to="/projects/tennis" id="tennis-project"> Tennis Courts in SF - July 2017 </Link></div>
+						<div><Link className="projects" id="itunes-project"> Itunes Sampler - March 2016 </Link></div>
+						<div><Link className="projects" id="maps-project"> Many Maps - Feb 2016</Link></div>
+						<div><Link className="projects" id ="scene-project"> Scene in the City - May 2015  </Link></div>
 					</ul>
+					{this.props.children}	
 				</div>
       	 	</div>
       	 </div>
