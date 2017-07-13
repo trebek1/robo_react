@@ -17,8 +17,14 @@
 
 }
 
-.home .textContainer{
+.home .textContainer,{
 	margin-top: 50vh;
+}
+
+.edu .textContainer{
+	margin-top: 29vh;
+	margin-left: 16vw;
+
 }
 
 #links {
