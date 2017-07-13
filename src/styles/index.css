@@ -7,6 +7,10 @@
     outline: none;
 }
 
+.projectHeader{
+	line-height: 1.2;
+}
+
 .projects{
 	text-decoration: none;
 	right: 10vw;
@@ -218,7 +222,7 @@ html {
 	
 	position: relative;
 	top:40%;
-	height: 25vh;
+	height: 20vh;
 
 
 }

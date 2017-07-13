@@ -16,9 +16,12 @@ export default class Projects extends Component {
 						<h3 className='section-title'> Projects ---> Click For More Information! </h3>
 						<ul>
 							<div><Link className="projects orangeText" to="/projects/tennis" id="tennis-project"> Tennis Courts in SF - July 2017 </Link></div>
+							<div><Link className="projects orangeText" to="/projects/codeslice" id ="codeslice-project"> Codeslice - May 2017  </Link></div>
+							<div><Link className="projects orangeText" to="/projects/workout" id ="workout-project"> Log The Workout - March 2017  </Link></div>
 							<div><Link className="projects orangeText" to="/projects/itunes" id="itunes-project"> Itunes Sampler - March 2016 </Link></div>
 							<div><Link className="projects orangeText" to="/projects/maps" id="maps-project"> Many Maps - Feb 2016</Link></div>
 							<div><Link className="projects orangeText" to="/projects/scene" id ="scene-project"> Scene in the City - May 2015  </Link></div>
+							
 						</ul>
 					</div>
 					{this.props.children}	
