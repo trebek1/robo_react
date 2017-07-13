@@ -11,19 +11,19 @@ export default class Workout extends Component {
 
 			<div className='information'>
 				<div> <span className='infoTitle'>URL: </span> 
-					<a className='site' href="http://tenniscourtsinsf.com" target="_blank">http://tenniscourtsinsf.com</a>
+					<a className='site' href="http://logtheworkout.com" target="_blank">http://logtheworkout.com</a>
 				</div>
 				<br/>
 				<div> <span className='infoTitle'>Github: </span>
-					<a className='site' href='https://github.com/trebek1/tennis_3.0' target="_blank">https://github.com/trebek1/tennis_3.0</a> 
+					<a className='site' href='https://github.com/trebek1/lets_workout' target="_blank">https://github.com/trebek1/lets_workout</a> 
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Description: </span> <span>An app that allows the user to find tennis court locations in SF. Includes both a street view and relevant information for tennis courts, tennis shops and tennis clubs. </span>
+					<span className="infoTitle">Description: </span> <span>App the allows a user to create a username and profile to record workout and other health related metrics.</span>
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Technologies Used: </span> <span>React, Redux, JavaScript, Node.js, Express.js, GIT, HTML5/CSS3, Google Maps API v3, Google Street View, MongoDB. </span>
+					<span className="infoTitle">Technologies Used: </span> <span>React, Webpack, Express, Node, MongoDb, CSS, JavaScript </span>
 				</div>
 			</div>
 		</div>

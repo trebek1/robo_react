@@ -11,19 +11,19 @@ export default class Codeslice extends Component {
 
 			<div className='information'>
 				<div> <span className='infoTitle'>URL: </span> 
-					<a className='site' href="http://tenniscourtsinsf.com" target="_blank">http://tenniscourtsinsf.com</a>
+					<a className='site' href="http://codeslice.guru" target="_blank">http://codeslice.guru</a>
 				</div>
 				<br/>
 				<div> <span className='infoTitle'>Github: </span>
-					<a className='site' href='https://github.com/trebek1/tennis_3.0' target="_blank">https://github.com/trebek1/tennis_3.0</a> 
+					<a className='site' href='https://github.com/trebek1/codeslice' target="_blank">https://github.com/trebek1/codeslice</a> 
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Description: </span> <span>An app that allows the user to find tennis court locations in SF. Includes both a street view and relevant information for tennis courts, tennis shops and tennis clubs. </span>
+					<span className="infoTitle">Description: </span> <span>Site where I keep coding notes and a small blog. </span>
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Technologies Used: </span> <span>React, Redux, JavaScript, Node.js, Express.js, GIT, HTML5/CSS3, Google Maps API v3, Google Street View, MongoDB. </span>
+					<span className="infoTitle">Technologies Used: </span> <span>React, JavaScript, Node.js, Express.js, GIT, HTML5/CSS3, Webpack </span>
 				</div>
 			</div>
 		</div>
