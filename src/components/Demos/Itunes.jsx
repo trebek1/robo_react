@@ -6,24 +6,24 @@ export default class Itunes extends Component {
     return (	
     	<div id='tennis-project-data'>
     		<div className="ib top height">
-				<img className="image" src={require("../../../static/sites/tennis3.png")} />
+				<img className="image" src={require("../../../static/sites/itunes.png")} />
 			</div>
 
 			<div className='information'>
 				<div> <span className='infoTitle'>URL: </span> 
-					<a className='site' href="http://tenniscourtsinsf.com" target="_blank">http://tenniscourtsinsf.com</a>
+					<a className='site' href="http://ember-songs.herokuapp.com/" target="_blank">http://ember-songs.herokuapp.com/</a>
 				</div>
 				<br/>
 				<div> <span className='infoTitle'>Github: </span>
-					<a className='site' href='https://github.com/trebek1/tennis_3.0' target="_blank">https://github.com/trebek1/tennis_3.0</a> 
+					<a className='site' href='https://github.com/trebek1/Ember_LP' target="_blank">https://github.com/trebek1/Ember_LP</a> 
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Description: </span> <span>An app that allows the user to find tennis court locations in SF. Includes both a street view and relevant information for tennis courts, tennis shops and tennis clubs. </span>
+					<span className="infoTitle">Description: </span> <span>This is a small project that I built to learn some basics of ember. It allows the user to search for a band and query to itunes API for song data. You can also hear a sample of the song by clicking on the image provided. </span>
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Technologies Used: </span> <span>React, Redux, JavaScript, Node.js, Express.js, GIT, HTML5/CSS3, Google Maps API v3, Google Street View, MongoDB. </span>
+					<span className="infoTitle">Technologies Used: </span> <span>JavaScript, Emberjs, Itunes API. </span>
 				</div>
 			</div>
 		</div>

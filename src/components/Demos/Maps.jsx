@@ -6,24 +6,24 @@ export default class Maps extends Component {
     return (	
     	<div id='tennis-project-data'>
     		<div className="ib top height">
-				<img className="image" src={require("../../../static/sites/tennis3.png")} />
+				<img className="image" src={require("../../../static/sites/maps.png")} />
 			</div>
 
 			<div className='information'>
 				<div> <span className='infoTitle'>URL: </span> 
-					<a className='site' href="http://tenniscourtsinsf.com" target="_blank">http://tenniscourtsinsf.com</a>
+					<a className='site' href="https://manymaps.herokuapp.com" target="_blank">https://manymaps.herokuapp.com</a>
 				</div>
 				<br/>
 				<div> <span className='infoTitle'>Github: </span>
-					<a className='site' href='https://github.com/trebek1/tennis_3.0' target="_blank">https://github.com/trebek1/tennis_3.0</a> 
+					<a className='site' href='https://github.com/trebek1/maps' target="_blank">https://github.com/trebek1/maps</a> 
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Description: </span> <span>An app that allows the user to find tennis court locations in SF. Includes both a street view and relevant information for tennis courts, tennis shops and tennis clubs. </span>
+					<span className="infoTitle">Description: </span> <span>Completed a small project to investigate which mapping application to use moving forward using 5 different mapping environments and deployed it to Heroku.  </span>
 				</div>
 				<br/>
 				<div> 
-					<span className="infoTitle">Technologies Used: </span> <span>React, Redux, JavaScript, Node.js, Express.js, GIT, HTML5/CSS3, Google Maps API v3, Google Street View, MongoDB. </span>
+					<span className="infoTitle">Technologies Used: </span> <span>JavaScript, various top mapping APIs, Express.js, Node.js </span>
 				</div>
 			</div>
 		</div>
