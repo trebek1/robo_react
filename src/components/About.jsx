@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router';
 
-export default class App extends Component {
+export default class About extends Component {
   	render() {
     return (	
-        <div className="content home">
+        <div className="content about">
         	<div className="textContainer">
-      		Welcome to My Site! Click around to learn more about me!
+      		About
       		</div>
       	 </div>
     );
