@@ -9,6 +9,9 @@ import About from './components/About.jsx';
 import Edu from './components/Edu.jsx';
 import Projects from './components/Projects.jsx';
 import Tennis from './components/Demos/Tennis.jsx';
+import Itunes from './components/Demos/Itunes.jsx';
+import Maps from './components/Demos/Maps.jsx';
+import Scene from './components/Demos/Scene.jsx';
 
 import Wrapper from './components/Wrapper.jsx';
 
@@ -21,6 +24,9 @@ ReactDOM.render((
 				<Route path="/edu" pageId="Edu" component={Edu}/>
 				<Route path="/projects" pageId="Projects" component={Projects}>
 					<Route path="/projects/tennis" component={Tennis}/>
+					<Route path="/projects/itunes" component={Itunes}/>
+					<Route path="/projects/maps" component={Maps}/>
+					<Route path="/projects/scene" component={Scene}/>
 				</Route>
 		</Route>
 	</Router>), document.getElementById('root'));
