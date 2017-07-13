@@ -240,94 +240,12 @@ html {
 
 @media only screen and (orientation:portrait) {
 	
-	#links {
-		bottom: 11%;
-		right: 40%;
-		position: absolute;
-		font-size: 20px;
-		text-align: center;
-	}
-
-	#p-list{
-		position: absolute;
-		margin-top: 75%;
-		margin-bottom: 10%;
-	}
-
-	.projects{
-		line-height:200%; 
-		font-size: 110%;
-	}
-
-	#tennis-project-data, #scene-project-data, #maps-project-data, #itunes-project-data{
-	
-	position: fixed;
-	top:43%;
-	
-	}
-
-	.information{
-		font-size: small;	
-	}
 
 
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 750px) and (orientation : landscape) {
-	#project-data{
-		font-size: 75%;
-	}
-	#edu{
-		font-size: 75%;
-		line-height: 120%;
-	 	position: fixed;
-	    top: 45%;
-	    left: 50%;
-	    transform: translate(-50%, -50%);	
-	}
 	
-
-	#about{
-		max-height: 300px;
-    	overflow-y: scroll;
-    	line-height: 120%;
-	 	position: fixed;
-	    top: 53%;
-	    left: 50%;
-	    transform: translate(-50%, -50%);
-		font-size: 70%;
-		display: block;
-
-	}
-	.anchor-image{
-		height: 50%;
-		width: 50%;	
-	}
-	.title{
-		font-size: 75%;
-	}
-
-	#p-list{
-		position: absolute;
-		margin-top: 10%;
-		margin-bottom: 10%;
-	}
-
-
-	#tennis-project-data, #scene-project-data, #maps-project-data, #itunes-project-data{
-	
-		position: fixed;
-		max-height: 220px;
-	    overflow-y: scroll;
-	    display: block;
-	    top:50%;
-
-	}
-
-	.information{
-		font-size: small;
-	
-	}
 }
 
 
