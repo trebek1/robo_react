@@ -17,8 +17,9 @@
 
 }
 
-.home .textContainer,{
-	margin-top: 50vh;
+.home .textContainer{
+	margin-top: 45vh;
+	margin-left: 7vw;
 }
 
 .edu .textContainer{
@@ -28,8 +29,8 @@
 }
 
 #links {
-	bottom: 12%;
-	right: 41%;
+	bottom: 12vh;
+	right: 45vw;
 	position: absolute;
 	font-size: 20px;
 	text-align: center;
