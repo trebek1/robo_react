@@ -47,17 +47,6 @@
 
 }
 
-.home .textContainer{
-	margin-top: 45vh;
-	margin-left: 7vw;
-}
-
-.edu .textContainer{
-	margin-top: 29vh;
-	margin-left: 16vw;
-
-}
-
 #links {
 	bottom: 12vh;
 	right: 45vw;
@@ -140,16 +129,6 @@ html {
 	display: inline-block;
 }
 
-
-#text, #edu, #resume{
-	
-	line-height: 120%;
- 	position: fixed;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .fa, .resume {
 	color: orange;
 	text-decoration: none;
@@ -165,9 +144,20 @@ html {
 }
 
 #about{
-	font-size: 10px;
-	margin-top: 15vh;
-	margin-left: 5vw;
+	margin-top: 21vh;
+	margin-left: 13vw;
+	font-size: 16px;
+	line-height: 1.1;
+}
+
+.eduContainer{
+	margin-top: 21vh;
+	margin-left: 13vw;
+}
+
+.welcome{
+	margin-top: 40vh;
+	margin-left: 9vw;
 }
 
 #edutext2 {

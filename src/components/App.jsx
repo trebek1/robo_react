@@ -6,7 +6,9 @@ export default class App extends Component {
     return (	
         <div className="content home">
         	<div className="textContainer">
-      		Welcome to My Site! Click around to learn more about me!
+	        	<div className="welcome">
+	      			Welcome to My Site! Click around to learn more about me!
+	      		</div>
       		</div>
       	 </div>
     );

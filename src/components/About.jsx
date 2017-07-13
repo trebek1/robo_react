@@ -13,9 +13,6 @@ export default class About extends Component {
 						<li> Job: Software Engineer</li>
 						<li> Location: San Francisco </li>
 					</ul>
-					<h3 className='lightBlue'> Statement </h3>
-					<div> I started off my career in Finance after studying technical fields in school. I worked at Oracle in Corporate Finance and Raymond James in Equity Research -- focusing on Midstream MLPs in the Oil and Gas space. Looking to do something more technical I attended General Assembly in San Francisco and began my career as a web developer. I am currently focusing on JavaScript front-end web development.</div>
-					
 					<h3 className='lightBlue'> Primary Skills </h3>
 					<ul>
 						<li> JavaScript </li>
@@ -45,5 +42,11 @@ export default class About extends Component {
       		</div>
       	 </div>
     );
+  }
+  componentDidMount(){
+  	document.getElementById("bottom").style.display = "none"; 
+  }
+  componentWillUnmount() {
+  	document.getElementById("bottom").style.display = "block"; 	
   }
 }
