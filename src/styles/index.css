@@ -1,3 +1,12 @@
+@font-face {
+    font-family:robo;
+    src: url(../../static/robo.ttf);
+}
+
+*:focus {
+    outline: none;
+}
+
 .orangeText{
 	color:orange;
 }
@@ -50,15 +59,6 @@
 
 .app-wrapper{
 	height:100vh;
-}
-
-@font-face {
-    font-family:robo;
-    src: url(../../static/robo.ttf);
-}
-
-*:focus {
-    outline: none;
 }
 
 a:hover, h3.title:hover, a:active{
@@ -206,10 +206,9 @@ html {
 
 #p-list{
 	position: absolute;
-	margin-top: 20%;
-	margin-bottom: 10%;
-
-
+	margin-top: 21vh;
+	margin-left: 5vw;
+	
 }
 
 @media only screen and (orientation:portrait) {
