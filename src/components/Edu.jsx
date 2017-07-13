@@ -7,15 +7,15 @@ export default class Edu extends Component {
         <div className="content edu">
         	<div className="textContainer">
         		<div className="eduContainer">
-	      			<h3>GENERAL ASSEMBLY</h3>
+	      			<h3 className="tronBlue">GENERAL ASSEMBLY</h3>
 					<div id='edutext'>Web Development Immersive</div>
 					<div id='edutext2'>March 2015 to June 2015</div>
 					
-					<h3>WASHINGTON UNIVERSITY IN ST. LOUIS</h3>
+					<h3 className="tronBlue">WASHINGTON UNIVERSITY IN ST. LOUIS</h3>
 					<div id='edutext'>Master of Science in Finance</div>
 					<div id='edutext2'>August 2012 to May 2013</div>
 					
-					<h3>BALDWIN WALLACE UNIVERSITY</h3>
+					<h3 className="tronBlue">BALDWIN WALLACE UNIVERSITY</h3>
 					<div id='edutext'>B.S. Mathematics and Economics</div>
 					<div id='edutext2'>August 2008 to May 2012</div>
 		      		</div>

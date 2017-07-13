@@ -6,18 +6,18 @@
 *:focus {
     outline: none;
 }
-
+.tronBlue{
+	color:#87CEFA;
+}
 .projectHeader{
 	line-height: 1.2;
+	margin-left: 13vw;
+	color:#87CEFA;
 }
 
 .projects{
 	text-decoration: none;
 	right: 10vw;
-}
-
-.projectHeader{
-	margin-left: 10vw;
 }
 
 .orangeText{
@@ -139,7 +139,7 @@ html {
 }
 
 #edutext, #edutext2{
-	color: #87CEFA;
+	color: orange;
 	line-height: 110%;
 }
 
@@ -179,7 +179,7 @@ html {
     
 }
 
-#itunes-project:hover, #tennis-project:hover, #scene-project:hover, #maps-project:hover, #stocks-project:hover {
+.pj:hover{
 	background-color: #000080;
 	cursor: pointer;
 }
@@ -203,8 +203,13 @@ html {
 	
 }
 
-.site, .section-title {
+.site{
 	color: #ffffff;
+}
+
+.section-title{
+	margin-top: 0px;
+	color: #87CEFA;
 }
 
 #tennis-project-data, #scene-project-data, #maps-project-data, #itunes-project-data{
