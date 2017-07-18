@@ -7,19 +7,22 @@ export default class About extends Component {
         <div className="content about">
         	<div className="textContainer">
 	      		<div id='about'>
-					<h3 className='lightBlue'> Basic Information </h3>				
-					<ul>
-						<li> Name: Alex Trzeciak </li>
-						<li> Job: Software Engineer</li>
-						<li> Location: San Francisco </li>
-					</ul>
-					<h3 className='lightBlue'> Primary Skills </h3>
-					<ul>
-						<li> JavaScript </li>
-						<li> Node </li>
-						<li> React/Redux</li>
-						<li> HTML/CSS </li>
-					</ul>
+	      			<div className="dataContainer">
+						<h3 className='lightBlue'> Basic Information </h3>				
+						<ul>
+							<li> Name: Alex Trzeciak </li>
+							<li> Job: Software Engineer</li>
+							<li> Location: San Francisco </li>
+						</ul>
+						</div>
+					<div className="dataContainer">
+						<h3 className='lightBlue'> Primary Skills </h3>
+						<ul>
+							<li> JavaScript & Node</li>
+							<li> React/Redux</li>
+							<li> HTML/CSS </li>
+						</ul>
+					</div>
 					<h3 className='lightBlue'> Interests </h3>
 					<ul>
 						<li> Tennis</li>

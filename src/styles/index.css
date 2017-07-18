@@ -16,9 +16,12 @@ html{
 	background-size: 100% 100%;
 	font-family: robo;
 	color: orange;
-	
-
 }
+
+.dataContainer{
+	display: inline-block;
+}
+
 .tronBlue{
 	color:#87CEFA;
 }
