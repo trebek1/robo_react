@@ -14,7 +14,9 @@ export default class Projects extends Component {
 				<div id='p-list'>
 					<div className="projectHeader">
 						<h3 className='section-title'> Projects ---> Click For More Information! </h3>
-						<ul>
+					</div>
+					<div className="projectsSection">
+						<ul className="list">
 							<div className="pj"><Link className="projects orangeText pj" to="/projects/tennis" id="tennis-project"> Tennis Courts in SF - July 2017 </Link></div>
 							<div className="pj"><Link className="projects orangeText pj" to="/projects/codeslice" id ="codeslice-project"> Codeslice - May 2017  </Link></div>
 							<div className="pj"><Link className="projects orangeText pj" to="/projects/workout" id ="workout-project"> Log The Workout - March 2017  </Link></div>

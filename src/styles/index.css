@@ -25,11 +25,21 @@ html{
 .tronBlue{
 	color:#87CEFA;
 }
-.projectHeader{
+.projectHeader, .projectsSection{
 	line-height: 1.2;
 	margin-left: 13vw;
 	color:#87CEFA;
+}
+
+.projectHeader{
 	width: 45vw;
+}
+.projectsSection{
+	width: 33vw;
+}
+
+.list{
+	padding: 0px;
 }
 
 .projects{
@@ -187,9 +197,10 @@ h3.title:active{
     
 }
 
-.pj:hover{
+.pj:hover, .pj:active{
 	background-color: #000080;
 	cursor: pointer;
+	color: red;
 }
 
 .image{
