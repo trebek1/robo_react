@@ -197,7 +197,7 @@ h3.title:active{
     
 }
 
-.pj:hover, .pj:active{
+.pj:hover, .clickStyle{
 	background-color: #000080;
 	cursor: pointer;
 	color: red;
