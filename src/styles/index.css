@@ -264,9 +264,12 @@ h3.title:active{
 		position: relative;
 		top: 10%;
 		display: inline-block;
-		margin: 0 20%;
+		margin: 0 12%;
 		width: auto; 
 		height: auto;
+	}
+	#p-list{
+	margin-left: 15vw;
 	}
 }
 
