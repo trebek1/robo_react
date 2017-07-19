@@ -162,15 +162,15 @@ h3.title:active{
 }
 
 #about{
-	margin-top: 21vh;
+	margin-top: 18vh;
 	margin-left: 13vw;
 	font-size: 16px;
 	line-height: 1.1;
 }
 
 .eduContainer{
-	margin-top: 21vh;
-	margin-left: 13vw;
+	margin-top: 20vh;
+	margin-left: 18vw;
 }
 
 .welcome{
@@ -254,7 +254,7 @@ h3.title:active{
 #p-list{
 	position: absolute;
 	margin-top: 21vh;
-	margin-left: 5vw;
+	margin-left: 11vw;
 	width: 80vw;
 	
 }

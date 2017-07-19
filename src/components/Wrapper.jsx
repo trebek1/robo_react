@@ -3,6 +3,14 @@ import { Link } from 'react-router'
 
 export default class Wrapper extends Component {
 
+  clickHandler(e){
+  	var clicked = document.getElementsByClassName("clickStyle");
+  	if(clicked.length > 0){
+  		clicked[0].classList.remove("clickStyle");
+  	}	
+
+  }
+
   render() {
     return (
         <div className="app-wrapper">
@@ -22,7 +30,7 @@ export default class Wrapper extends Component {
 						<h3 className='title'>About Me </h3>
 					</div>
 				</Link>
-				<Link className="orangeText" to="/projects">
+				<Link onClick={this.clickHandler.bind(this)} className="orangeText" to="/projects">
 					<div  id='lower_left'>
 						<input className="anchor-image" type="image" src={require("../../static/sprites/robots.png")}/>
 						<h3 className='title'> Projects </h3>
