@@ -11,7 +11,7 @@ export default class Tennis extends Component {
 
 			<div className='information'>
 				<div> <span className='infoTitle'>URL: </span> 
-					<a className='site' href="http://tenniscourtsinsf.com" target="_blank">http://tenniscourtsinsf.com</a>
+					<a className='site' href="https://www.tenniscourtsinsf.com/" target="_blank">http://tenniscourtsinsf.com</a>
 				</div>
 				<br/>
 				<div> <span className='infoTitle'>Github: </span>
