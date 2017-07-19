@@ -98,7 +98,7 @@ html{
 	height:100vh;
 }
 
-a:hover, h3.title:hover, a:active{
+a:hover, h3.title:hover, a:active, div.pj:hover a{ 
 	color: red;
 }
 

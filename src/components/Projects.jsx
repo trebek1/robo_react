@@ -17,7 +17,8 @@ export default class Projects extends Component {
 		if(e.target.tagName === "A"){
 			e.target.parentElement.className += " clickStyle";
 		}else{
-			e.target.className += " clickStyle";		
+			e.target.className += " clickStyle";
+			e.target.firstChild.click();		
 		}
 		
 	}
