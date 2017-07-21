@@ -138,9 +138,9 @@ h3.title:active{
 	left: 10%;
 }
 #lower_right {
+	position: absolute;
 	bottom: 10%;
 	right: 10%;
-	position: absolute;
 }
 
 .ib{
@@ -205,7 +205,7 @@ h3.title:active{
 
 .image{
 	height: 100%;
-	width: 30vw;
+	width: 20vw;
 	max-width: 100%;
 	position: relative;
     left: 0;
